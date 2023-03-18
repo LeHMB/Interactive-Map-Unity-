@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfMarker xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Marker>
+	<!-- Koordinaten auf dem Bild in Pixeln -->
+    <Position>
+      <x>2048</x>
+      <y>1024</y>
+    </Position>
+	<!-- Default, Cave, Circle, QuestionMark -->
+	<Type>M1</Type>
+    <Color>
+      <r>255</r>
+      <g>0</g>
+      <b>0</b>
+      <a>255</a>
+    </Color>
+    <Headline>Headline</Headline>
+	<!-- &lt;br&gt; funktioniert als linebreak (normalerweise: <br>) -->
+    <Text>This is line1&lt;br&gt;This is line2&lt;br&gt;and line 3</Text>
+    <ImagePath>Bild1.png</ImagePath>
+  </Marker>
+  <Marker>
+    <Position>
+      <x>1000</x>
+      <y>2000</y>
+    </Position>
+	<Type>M2</Type>
+    <Color>
+      <r>0</r>
+      <g>255</g>
+      <b>0</b>
+      <a>255</a>
+    </Color>
+    <Headline>A Headline without Content</Headline>
+    <Text />
+	<ImagePath></ImagePath>
+  </Marker>
+</ArrayOfMarker>

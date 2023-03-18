@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Icons>
+    <MarkerIcon>
+      <Typename>M1</Typename>
+      <Filename>Marker1.png</Filename>
+      <Anchor>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Anchor>
+    </MarkerIcon>
+	<MarkerIcon>
+      <Typename>M2</Typename>
+      <Filename>Marker2.png</Filename>
+      <Anchor>
+        <x>0.5</x>
+        <y>0</y>
+      </Anchor>
+    </MarkerIcon>
+  </Icons>
+  <Mapname>MAP.jpg</Mapname>
+  <BaseZoom>0.9</BaseZoom>
+  <ZoomStrengh>1</ZoomStrengh>
+  <ZoomLimits>
+    <x>10</x>
+    <y>0.5</y>
+  </ZoomLimits>
+  <Boundaries>
+    <x>1</x>
+    <y>1</y>
+  </Boundaries>
+</Config>
